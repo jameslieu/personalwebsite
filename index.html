@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta property="og:title" content="James Lieu - Personal website" />
+    <meta property="og:site_name" content="James Lieu - Software Developer" />
+    <meta property="og:url" content="https://jameslieu.co.uk" />
+    <meta property="og:description" content="Personal website" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://user-images.githubusercontent.com/4426088/158403714-8de910e9-ba32-450c-ab5b-acaafbe93c10.jpg"
+    />
+
+    <title>James Lieu</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bulma Version 0.9.3-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar is-fixed-top is-info">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://jameslieu.co.uk"> JL </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navMenu"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#home">
+            <span>Home</span>
+          </a>
+          <a class="navbar-item" href="#about">
+            <span>About</span>
+          </a>
+          <a class="navbar-item" href="#experience">
+            <span>Experience</span>
+          </a>
+          <a class="navbar-item" href="#interests">
+            <span>Interests</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section
+      class="hero is-info is-fullheight is-fullheight-with-navbar"
+      id="home"
+    >
+      <div class="hero-body">
+        <div
+          class="container has-text-centered-mobile has-text-left-tablet mx-1"
+        >
+          Hello! I am
+          <h1 class="title is-1">James Lieu</h1>
+          <h2 class="subtitle is-3">Full Stack Web Developer</h2>
+          <div class="social-icons">
+            <a
+              class="social-icon mr-2"
+              target="_blank"
+              href="https://github.com/jameslieu"
+              ><i class="fab fa-github is-size-3" title="Github"></i
+            ></a>
+            <a
+              class="social-icon mr-2"
+              target="_blank"
+              href="https://twitter.com/J_Lieu"
+              ><i class="fab fa-twitter is-size-3" title="Twitter"></i
+            ></a>
+            <a
+              class="social-icon mr-2"
+              target="_blank"
+              href="https://www.linkedin.com/in/jameslieu1/"
+              ><i class="fab fa-linkedin-in is-size-3" title="LinkedIn"></i
+            ></a>
+            <a
+              class="social-icon mr-2"
+              target="_blank"
+              href="https://jameslieu.github.io"
+              ><i class="fas fa-blog is-size-3" title="Blog (legacy)"></i
+              ><span><sub>1</sub></span></a
+            >
+            <a
+              class="social-icon mr-2"
+              target="_blank"
+              href="https://blog.jameslieu.co.uk"
+              ><i class="fas fa-blog is-size-3" title="Blog (new)"></i
+              ><span><sub>2</sub></span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section is-fullheight" id="about">
+      <div class="section-heading">
+        <div class="container mx-1">
+          <div class="content">
+            <h3
+              class="title is-3 has-text-centered-mobile has-text-left-tablet"
+            >
+              About Me
+            </h3>
+            <h4
+              class="subtitle is-5 has-text-centered-mobile has-text-left-tablet"
+            >
+              Who Am I?
+            </h4>
+            <div class="columns has-text-centered-mobile has-text-left-tablet">
+              <div class="column is-one-fifth">
+                <figure class="image is-128x128 mx-auto">
+                  <img class="is-rounded" src="assets/img/profile.jpg" />
+                </figure>
+              </div>
+              <div class="column is-two-thirds-desktop">
+                <p class="mb-3">
+                  A software developer with more than
+                  <b>9 years</b> of professional experience. I've worked with a
+                  variety number of programming languages and technologies and
+                  have a <b>strong work ethic</b>.
+                </p>
+                <p>
+                  I work <b>very well within a team</b>, and strive to be
+                  reliable and consistent in the work I deliver, and to a high
+                  standard.
+                </p>
+                <p>
+                  See my recommendations/testimonials on my
+                  <a
+                    href="https://www.linkedin.com/in/jameslieu1/"
+                    target="_blank"
+                    >LinkedIn Profile</a
+                  >
+                </p>
+              </div>
+            </div>
+            <hr />
+            <h4>&#x1f4bb; Tech Stack</h4>
+
+            <p>Back end technologies:</p>
+            <img
+              src="assets/img/csharp.png"
+              title="C#"
+              alt="csharp logo"
+              width="70"
+              height="50"
+            />
+            <img
+              class="mr-4"
+              src="assets/img/go-logo.png"
+              title="Golang"
+              alt="golang logo"
+              width="50"
+              height="70"
+            />
+            <img
+              src="assets/img/sql.png"
+              title="SQL"
+              alt="SQL logo"
+              width="50"
+              height="70"
+            />
+
+            <p>Front end technologies:</p>
+            <div class="icons mb-3">
+              <span class="icon has-text-info mr-3"
+                ><i class="is-size-3 fab fa-html5" title="HTML"></i
+              ></span>
+              <span class="icon has-text-info mr-3"
+                ><i class="is-size-3 fab fa-css3-alt" title="CSS"></i
+              ></span>
+              <span class="icon has-text-info mr-3"
+                ><i class="is-size-3 fab fa-js-square" title="JavaScript"></i
+              ></span>
+              <span class="icon has-text-info mr-3"
+                ><i class="is-size-3 fab fa-react" title="React"></i
+              ></span>
+            </div>
+            <p>I also have professional experience in the following:</p>
+            <div class="icons">
+              <span class="icon has-text-success mr-3"
+                ><i class="is-size-3 fab fa-vuejs" title="VueJS"></i
+              ></span>
+              <span class="icon has-text-success mr-3"
+                ><i class="is-size-3 fab fa-angular" title="Angular"></i
+              ></span>
+              <span class="icon has-text-success mr-3"
+                ><i class="is-size-3 fab fa-php" title="PHP"></i
+              ></span>
+              <span class="icon has-text-success mr-3"
+                ><i class="is-size-3 fab fa-laravel" title="Laravel"></i
+              ></span>
+              <span class="icon has-text-success mr-3"
+                ><i class="is-size-3 fas fa-gem" title="Ruby"></i
+              ></span>
+            </div>
+            <hr />
+            <p class="is-size-5">Programming concepts:</p>
+            <div class="columns">
+              <div class="column">
+                <ul>
+                  <li>S.O.L.I.D principles</li>
+                  <li>Design Patterns</li>
+                  <li>Object Oriented Programming</li>
+                  <li>Microservices</li>
+                  <li>MVC</li>
+                </ul>
+              </div>
+              <div class="column">
+                <ul>
+                  <li>ORM - EF Core, Eloquent, ActiveRecord</li>
+                  <li>API development and design</li>
+                  <li>Relational database design</li>
+                  <li>Micro frontend</li>
+                  <li>RESTful conventions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="section is-fullheight" id="experience">
+      <div class="section-heading">
+        <div class="container mx-1">
+          <div class="content">
+            <h3 class="title is-2 has-text-centered-mobile">Experience</h3>
+            <h4 class="subtitle is-5 has-text-centered-mobile">
+              9 years of Professional Experience
+            </h4>
+            <div class="columns">
+              <div class="column is-four-fifths-desktop">
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">Software Developer</p>
+                            <p class="is-6">
+                              <a href="https://kineticsoftware.com"
+                                >Kinetic Software</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              June 2019 - Present
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          API Development across numerous microservices in
+                          <b>C#</b>, <b>.NET Core</b> and <b>Golang</b>
+                        </li>
+                        <li>
+                          Micro Front-end development using <b>ReactJs</b> and
+                          <b>Redux Toolkit</b>
+                        </li>
+                        <li>
+                          Contributed to architectural change for microservices
+                          to utilize the event-carried state transfer model
+                        </li>
+                        <li>
+                          Contributed to validation middleware used across each
+                          service with <b>NodeJS</b> and Extensive feature
+                          testing with <b>CucumberJS</b>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">
+                              Software Developer Special Projects (.NET)
+                            </p>
+                            <p class="is-6">
+                              <a href="https://www.tissl.co.uk/">TISSL LTD</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              February 2019 - June 2019
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Integration with Fiscal receipt Printer using
+                          <b>SOAP/XML</b>
+                        </li>
+                        <li>
+                          Integration with third-party <b>API</b> using
+                          <b>C#</b> / <b>.NET</b> to generate, submit and print
+                          Fiscal Invoices and its Fiscal Receipt counterpart.
+                          The integration was certified and approved by the
+                          third-party.
+                        </li>
+                        <li>
+                          Maintenance of third-party card payment integration
+                          and maintenance of legacy POS integration
+                        </li>
+                        <li>
+                          Create and generate bespoke Excel and CSV reports
+                          using
+                          <b>SQL</b> and in-house report generator
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">PHP Developer</p>
+                            <p class="is-6">
+                              <a href="https://www.twentyci.co.uk/">TwentyCI</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              October 2016 - January 2019
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Active Development of greenfield project built with
+                          <b>PHP</b>, <b>Laravel</b>, <b>JavaScript</b>,
+                          <b>Angular 5</b>, <b>Html</b> <b>CSS</b>
+                        </li>
+                        <li>
+                          Side project to be written specifically in
+                          <b>C#</b> and
+                          <b>.NET</b>
+                          Core to build a prototype which assists with
+                          collecting and structuring data for the company in a
+                          more efficient and effective way than our existing
+                          solutions
+                        </li>
+                        <li>
+                          Replaced the existing authentication logic with
+                          <b>OAuth2</b> and authorisation codes (access/refresh
+                          tokens)
+                        </li>
+                        <li>
+                          Maintained and contributed to unstable legacy
+                          application built with <b>Ruby on Rails</b>
+                          until it was built to a stable state
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">Software Engineer</p>
+                            <p class="is-6">
+                              <span>Rentify</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              January 2015 - September 2016
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Full stack development on the Rentify web application
+                          built with <b>Ruby on Rails</b>
+                        </li>
+                        <li>
+                          Involved in creation of pdf exports of multiple terms
+                          and conditions including versioning
+                        </li>
+                        <li>
+                          Created the initial prototype for the property search
+                          feature using <b>ReactJS</b>
+                        </li>
+                        <li>
+                          Built the digital signiture feature for signing
+                          tenancy agreements using 2-factor authentication with
+                          <b>jQuery</b> and <b>Ruby on Rails</b>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">Junior Ruby Developer</p>
+                            <p class="is-6">
+                              <span>mGage LLC</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              January 2015 - September 2016
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Contributed to the development of an asynchronous API
+                          for billing, refunding and crediting with
+                          <b>Ruby on Rails</b>
+                        </li>
+                        <li>
+                          Assisted with infrastructure of billing API for
+                          multiple providers had different template structures
+                        </li>
+                        <li>
+                          Maintaining legacy project 'Zaypay' which enables
+                          secure mobile payments for virtual goods also built
+                          with
+                          <b>Ruby on Rails</b>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">Junior Developer</p>
+                            <p class="is-6">
+                              <span>LoyaltyLion</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              November 2013 - February 2014
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Creating email-templates, graphic design features,
+                          Christmas e-card, banners and flyers for print.
+                        </li>
+                        <li>
+                          Creating and animating slides for a presentation using
+                          keynote
+                        </li>
+                        <li>Opportunity to write unit tests</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">Creative/Developer</p>
+                            <p class="is-6">
+                              <span>PSYT - Psychological Technologies</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              September 2013 - November 2013
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Studied the <b>Rubymotion</b> framework and help with
+                          design.
+                        </li>
+                        <li>
+                          Assisted with building the homepage using
+                          <b>HTML</b> and
+                          <b>CSS</b>
+                        </li>
+                        <li>
+                          Learned some <b>proto.io</b> to create the prototype
+                          app for mobile devices.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+
+                <div class="card mb-3">
+                  <div class="card-content">
+                    <div class="columns">
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4 mb-1">
+                              Web Development Student
+                            </p>
+                            <p class="is-6">
+                              <span>Makers Academy</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="is-4 has-text-info">
+                              May 2013 - August 2013
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <ul>
+                        <li>
+                          Built a prototype project with a team which is
+                          designed to integrate with a users FB account and
+                          donate to charity with each FB post with
+                          <b>Ruby on Rails</b>
+                        </li>
+                        <li>
+                          Created a Sudoku game with <b>HTML</b>, <b>CSS</b>,
+                          <b>Ruby</b> and <b>Ruby on Rails</b>
+                        </li>
+                        <li>
+                          Created a simulated interative graphical editor
+                          program in <b>Ruby</b>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="section" id="interests">
+      <div class="section-heading">
+        <div class="container mx-1">
+          <div class="columns">
+            <div class="column  is-four-fifths-desktop">
+              <div class="content">
+                <h3 class="title is-2 has-text-centered-mobile">Interests</h3>
+                <h4 class="subtitle is-5 has-text-centered-mobile">
+                  More about me
+                </h4>
+
+                <h5>&#x1f4bb; Programming</h5>
+                <p>
+                  I enjoy solving programming problems in C#.
+                  <a
+                    href="https://github.com/jameslieu/csharp_projects"
+                    target="_blank"
+                    >Here is a repository of some examples.</a
+                  >
+                </p>
+                <div class="mb-3">
+                  <p class="mb-1">
+                    I also try to participate in Code War Katas:
+                  </p>
+                  <a href="https://www.codewars.com/users/jameslieu/" target="_"
+                    ><img
+                      src="https://www.codewars.com/users/jameslieu/badges/micro"
+                  /></a>
+                </div>
+                <hr />
+                <div>
+                  <h5>&#x1f4ac; Programming Communities</h5>
+                  <p>
+                    I'm very active on
+                    <a href="https://twitter.com/J_Lieu" target="_blank">
+                      Twitter </a
+                    >, primarily Tech Twitter where I can give back to the
+                    community. There are a lot of people trying to break into
+                    tech and so I share my past experiences and mistakes to help
+                    people.
+                  </p>
+                  <p>
+                    I enjoy and participate on some programming communities on
+                    Slack, primarily the Makers Alumni channel where graduates
+                    from Makers (formally known as Makers Academy) join at the
+                    end of the course to discuss various topics, ask career
+                    related questions and share experiences working in the
+                    industry.
+                  </p>
+                  <p>
+                    I try to contribute to
+                    <a
+                      href="https://stackoverflow.com/users/2405120/james-lieu"
+                      target="_blank"
+                      >Stack Overflow questions</a
+                    >
+                    where I can.
+                  </p>
+                  <p>
+                    And I try to respond to posts on
+                    <a
+                      href="https://www.reddit.com/user/jameslieu"
+                      target="_blank"
+                      >Reddit</a
+                    >
+                    when I feel I can help or support other people learning to
+                    code.
+                  </p>
+                </div>
+                <hr />
+
+                <div>
+                  <h5>&#x1f4dd; Blogging</h5>
+                  <p>
+                    I write in this
+                    <a href="https://jameslieu.github.io" target="_blank"
+                      >blog</a
+                    >
+                    from time to time, occasionally about programming related
+                    topics. Doing my best to share knowledge or re-enforce my
+                    own learning by writing blog posts on a topic.
+                  </p>
+                  <p>
+                    I've sinced moved my blog to
+                    <a href="https://blog.jameslieu.co.uk" target="_blank">
+                      Hashnode for greater visibility
+                    </a>
+                  </p>
+                </div>
+                <hr />
+                <div>
+                  <h5>&#x1f4da; Reading</h5>
+                  <p>
+                    I enjoy reading when I find time. See my
+                    <a
+                      href="https://www.goodreads.com/jameslieu"
+                      target="_blank"
+                      >Goodreads profile</a
+                    >
+                    to see which books I've read and recommend.
+                  </p>
+
+                  <p>My favourite genres are:</p>
+                  <ui class="mb-3">
+                    <li>&#x2694; High fantasy</li>
+                    <li>&#x1f9d8; Personal Development</li>
+                    <li>&#x1f4c8; Productivity</li>
+                    <li>&#x1f4bb; Programming</li>
+                  </ui>
+                </div>
+                <hr />
+                <div>
+                  <h5>&#x1f579; Gaming</h5>
+                  <p>
+                    I also enjoy video games. These are the games I highly
+                    recommend:
+                  </p>
+                  <ul>
+                    <li>&#x1f409; Dragon Age: Origins</li>
+                    <li>&#x1f6e1; Final Fantasy X</li>
+                    <li>&#x1f468;&#x200d;&#x1f4bc; Yakuza 0</li>
+                    <li>&#x1f5e1; Middle Earth: Shadow of Mordor</li>
+                    <li>&#x1f4dc; The Elder's Scroll VI: Oblivion</li>
+                    <li>&#x1fa96; Metal Gear Solid Series</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer has-text-centered">
+      <div class="social-icons">
+        <a
+          class="social-icon mr-2"
+          target="_blank"
+          href="https://github.com/jameslieu"
+          ><i class="fab fa-github is-size-3" title="Github"></i
+        ></a>
+        <a
+          class="social-icon mr-2"
+          target="_blank"
+          href="https://twitter.com/J_Lieu"
+          ><i class="fab fa-twitter is-size-3" title="Twitter"></i
+        ></a>
+        <a
+          class="social-icon mr-2"
+          target="_blank"
+          href="https://www.linkedin.com/in/jameslieu1/"
+          ><i class="fab fa-linkedin-in is-size-3" title="LinkedIn"></i
+        ></a>
+        <a
+          class="social-icon mr-2"
+          target="_blank"
+          href="https://jameslieu.github.io"
+          ><i class="fas fa-blog is-size-3" title="Blog (legacy)"></i
+          ><span><sub>1</sub></span></a
+        >
+        <a
+          class="social-icon mr-2"
+          target="_blank"
+          href="https://blog.jameslieu.co.uk"
+          ><i class="fas fa-blog is-size-3" title="Blog (new)"></i
+          ><span><sub>2</sub></span></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(
+      document.querySelectorAll(".navbar-burger"),
+      0
+    );
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+      // Add a click event on each of them
+      $navbarBurgers.forEach((el) => {
+        el.addEventListener("click", () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle("is-active");
+          $target.classList.toggle("is-active");
+        });
+      });
+    }
+  });
+</script>
+<script
+  src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+  crossorigin="anonymous"
+></script>
